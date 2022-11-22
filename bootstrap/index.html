@@ -2,193 +2,276 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./assets/img/bootstrap.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>At Nel</title>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="./assets/img/bootstrap.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./img/aspas-certas.png">
+  <title>At Nel</title>
 </head>
+
 <body>
-<div>
+  <div>
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #160727;">
-        <a class="navbar-brand" href="#">At Nel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#">At Nel</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Diferencial <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Metodologia</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Cursos
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Eletrônicos</a>
-                        <a class="dropdown-item" href="#">Móveis</a>
-                        <a class="dropdown-item" href="#">Escritório</a>
-                        <a class="dropdown-item" href="#">Brinquedos</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Mostrar tudo</a>
-                    </div>
-                </li>
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Diferencial <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Metodologia</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Cursos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Eletrônicos</a>
+              <a class="dropdown-item" href="#">Móveis</a>
+              <a class="dropdown-item" href="#">Escritório</a>
+              <a class="dropdown-item" href="#">Brinquedos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mostrar tudo</a>
+            </div>
+          </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plataformas
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Bootstrap</a>
-                        <a class="dropdown-item" href="#">HTML</a>
-                        <a class="dropdown-item" href="#">JavaScript</a>
-                        <a class="dropdown-item" href="#">NestJs</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Full Stack</a>
-                    </div>
-                </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Plataformas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Bootstrap</a>
+              <a class="dropdown-item" href="#">HTML</a>
+              <a class="dropdown-item" href="#">JavaScript</a>
+              <a class="dropdown-item" href="#">NestJs</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Full Stack</a>
+            </div>
+          </li>
 
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="blackfriday.html">BlackFriday</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Buscar produto..." aria-label="Pesquisar">
-                <button class="btn btn-outline-success my-2 my-sm-0 border border-light" type="submit" style="background-color: transparent; color: white;" >Pesquisar</button>
-            </form>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="blackfriday.html">BlackFriday</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar produto..." aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0 border border-light" type="submit"
+            style="background-color: transparent; color: white;">Pesquisar</button>
+        </form>
+      </div>
     </nav>
-</div>
-<br>
-<div class="container" style="font-family:cursive; background-image: url('./img/classmates-friends-bag-school-education.jpg');">
-<h2>At Nel Online. <br> Aprenda Inglês 100% Real, 100% Digital.</h2>
-<h4>Com a Nel Online você se torna realizador.</h4>
-<h4> Estude inglês no seu ritimo e de onde estiver.</h4> <br><br><br><br>
-<button type="button" class="btn btn-success">COMECE AGORA</button>
-</div><br><br><br><br>
-<div class="container" style="font-family:cursive ;">
-    <div class="row d-flex justify-content-center">
-    <h3>Só quem é aluno Nel Online
-        estuda assim:</h3>
-        <div class="container d-flex justify-content-center " style="font-family:cursive ;">
-            <p class="col-8">O At Nel Online é um curso de inglês 100% digital com um método inovador e
-            diferente de escolas de ensino. Estude onde quiser com conteúdos exclusivos.</p>
-
-</div>
-        
-
-    
-</div>
-</div>
-<div class="container">
-    <div class="row d-flex justify-content-center">
-    <img src="./img/card.PNG" style="height:200px;" class="rounded float-left" alt="...">
-    <img src="./img/car2.PNG" style="height:200px;" class="rounded float-left" alt="...">
-    <img src="./img/car3.PNG" style="height:200px;" class="rounded float-left" alt="...">
-    <img src="./img/car4.PNG" style="height:200px;" class="rounded float-left" alt="...">
-
-    </div>
-</div><br> <br><br><br>
-<div class="container" style="font-family:cursive">
+  </div>
+  <br>
+  <div class="container"
+    style="font-family:cursive;color:white">
     <div class="row">
-        <div class="col">
-            <iframe width="400" height="250" src="https://www.youtube.com/embed/S45kHeWnT0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="col">
-            <h3>Metodologia
-            </h3>
-            <h5>O curso da Nel Online é completamente digital, onde você aprende o inglês aplicado na prática em situações reais de acordo com o tema do seu interesse.</h5>
-            <h5>Tudo para oferecer a você uma experiência de imersão cultural instigante, te ajudando a pensar em inglês e tornando seu aprendizado muito mais fácil.</h5>
-            <button type="button" class="btn btn-success">SAIBA MAIS</button>
+      <div class="col-md-6 col-sm-1" >
+        <h2>At Nel Online. <br> Aprenda Inglês 100% Real, 100% Digital.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-2">
+        <h4>Com a Nel Online você se torna realizador.</h4>
+        <h4> Estude inglês no seu ritimo e de onde estiver.</h4>
+        <button type="button" class="btn btn-success">COMECE AGORA</button>
 
-        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="font-family:cursive ;">
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-6 col-sm-2">
+        <h3>Só quem é aluno Nel Online
+          estuda assim:</h3>
+      </div>
+      
+      <div class="container d-flex justify-content-center " style="font-family:cursive ;">
+        <p class="col-md-6 col-sm-2">O At Nel Online é um curso de inglês 100% digital com um método inovador e
+          diferente de escolas de ensino. Estude onde quiser com conteúdos exclusivos.</p>
+
+      </div>
+
+
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <img src="./img/card.PNG" style="height:200px;" class="rounded float-left" alt="...">
+      <img src="./img/car2.PNG" style="height:200px;" class="rounded float-left" alt="...">
+      <img src="./img/car3.PNG" style="height:200px;" class="rounded float-left" alt="...">
+      <img src="./img/car4.PNG" style="height:200px;" class="rounded float-left" alt="...">
+
+    </div>
+  </div><br>
+  <div class="container" style="font-family:cursive">
+    <div class="row">
+      <div class="col-md-6 col-sm-1">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/S45kHeWnT0M" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="col-md-6 col-sm-2" style="color:white">
+        <h3>Metodologia
+        </h3>
+        <h5>O curso da Nel Online é completamente digital, onde você aprende o inglês aplicado na prática em situações
+          reais de acordo com o tema do seu interesse.</h5>
+        <h5>Tudo para oferecer a você uma experiência de imersão cultural instigante, te ajudando a pensar em inglês e
+          tornando seu aprendizado muito mais fácil.</h5>
+        <button type="button" class="btn btn-success">SAIBA MAIS</button>
+
+      </div>
 
     </div>
 
-</div> <br><br><br><br>
-<div class="container" style="font-family:cursive">
+  </div>
+  <div class="container" style="font-family:cursive">
     <div class="row d-flex justify-content-center">
-        <h2>Depoimentos</h2>
-</div>
-<div class="container">
-    <div class="card-group">
+      <h2>Depoimentos</h2>
+    </div>
+    <div class="container">
+      <div class="card-group">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Marcelo Damasio</h5>
-            <p class="card-text">Recomendo pela qualidade das aulas e pelo conteúdo rico que facilita o aprendizado. Sempre tive dificuldade com a língua, mas com esse curso estou evoluindo.</p>
+            <p class="card-text">Recomendo pela qualidade das aulas e pelo conteúdo rico que facilita o aprendizado.
+              Sempre tive dificuldade com a língua, mas com esse curso estou evoluindo.</p>
           </div>
           <div class="card-footer">
             <small class="text-muted">Atualizados 3 minutos atrás</small>
           </div>
         </div>
         <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Marcelo Damasio</h5>
-              <p class="card-text">Recomendo pela qualidade das aulas e pelo conteúdo rico que facilita o aprendizado. Sempre tive dificuldade com a língua, mas com esse curso estou evoluindo.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Atualizados 3 minutos atrás</small>
-            </div>
+          <div class="card-body">
+            <h5 class="card-title">Marcelo Damasio</h5>
+            <p class="card-text">Recomendo pela qualidade das aulas e pelo conteúdo rico que facilita o aprendizado.
+              Sempre tive dificuldade com a língua, mas com esse curso estou evoluindo.</p>
           </div>
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Marcelo Damasio</h5>
-              <p class="card-text">Recomendo pela qualidade das aulas e pelo conteúdo rico que facilita o aprendizado. Sempre tive dificuldade com a língua, mas com esse curso estou evoluindo.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Atualizados 3 minutos atrás</small>
-            </div>
+          <div class="card-footer">
+            <small class="text-muted">Atualizados 3 minutos atrás</small>
           </div>
-    </div>
-    
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Marcelo Damasio</h5>
+            <p class="card-text">Recomendo pela qualidade das aulas e pelo conteúdo rico que facilita o aprendizado.
+              Sempre tive dificuldade com a língua, mas com esse curso estou evoluindo.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Atualizados 3 minutos atrás</small>
+          </div>
+        </div>
+      </div>
 
-</div><br><br><br><br>
-<footer class=" text-center text-white" style="background-color: #190B2A;">
-    <div class="container">
+
+    </div><br>
+
+
+    <div class="container" style="font-family:cursive;">
+      <div class="row d-flex justify-content-center">
+        <h2 >Inscreva Já</h2>
+      </div>
+      <div class="container" style="color:white">
         <div class="row">
-            <div class="col">
-                
+          <div class="col">
+            <label for="Nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" onkeyup="validaNome()">
+            <div class="text-red" id="erroNome"></div>
+            <br>
 
+            <label for="Email">Email:</label><br>
+            <input type="email" name="email" id="email" onkeyup="validaEmail()">
+            <div class="text-red" id="erroEmail"></div>
+            <br>
+
+            <label for="assunto">Assunto:</label><br>
+            <textarea name="assunto" id="assunto" cols="23" rows="5" onkeyup="validaAssunto()"></textarea>
+            <div class="text-red" id="erroAssunto"></div>
+           
+            <button type="button" class="btn btn-success" onclick="enviar()">Enviar</button><br><br>
+          </div>
+          <div class="col">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./img/children-celebrating-a-birthday.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/classmates-friends-bag-school-education.jpg"
+                    alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/students-knowing-the-right-answer.jpg" alt="Terceiro Slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+              </a>
             </div>
-
+          </div>
         </div>
 
+
+      </div>
+
     </div>
-</footer>
+  </div>
+  <footer class="text-center text-white" style="background-color: #160727;">
+    <div class="pt-4">
+      <section class="mb-4">
+        
+        <!-- Facebook -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" role="button"
+          data-mdb-ripple-color="dark" href="https://github.com/HenriqueMarts" target="_blank"><img height="30px" width="30px" src="./img/simbolo-de-aplicativo-do-facebook.png" alt=""><i class="fab fa-facebook-f"></i></a>
 
+        <!-- Twitter -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark" href="https://github.com/HenriqueMarts" target="_blank"><img height="30px" width="30px" src="./img/github.png" alt=""><i class="fab fa-twitter"></i></a>
 
+        <!-- Google -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark" href="https://github.com/HenriqueMarts" target="_blank"><img height="30px" width="30px" src="./img//instagram (1).png" alt=""><i class="fab fa-google"></i></a>
 
+        <!-- Instagram -->
+        <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+          data-mdb-ripple-color="dark" href="https://github.com/HenriqueMarts" target="_blank"><img height="30px" width="30px" src="./img/linkedin.png" alt=""><i class="fab fa-instagram"></i></a>
+      </section>
+    </div>
 
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark">Henrique Marts</a>
+    </div>
+  </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
 </body>
+
 </html>
